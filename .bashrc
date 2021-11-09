@@ -17,4 +17,4 @@ export PATH=$SPARK_HOME/bin:$PATH
 export PYTHONPATH=$(ZIPS=("$SPARK_HOME"/python/lib/*.zip); IFS=:; echo "${ZIPS[*]}"):$PYTHONPATH
 export PYSPARK_DRIVER_PYTHON="jupyter"
 export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
-
+export PATH=/opt/apache-maven-3.8.3/bin:$PATH
